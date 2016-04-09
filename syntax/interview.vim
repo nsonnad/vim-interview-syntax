@@ -7,8 +7,8 @@ if exists("b:current_syntax")
 endif
 
 syn region vwOnRecord start="`on" end="`"
-syn region vwOffRecord start="'`off" end="`"
-syn region vwBackground start="'`bg" end="`"
+syn region vwOffRecord start="`off" end="`"
+syn region vwBackground start="`bg" end="`"
 syn match vwComment "\/\/.*"
 
 let b:current_syntax = "interview"
