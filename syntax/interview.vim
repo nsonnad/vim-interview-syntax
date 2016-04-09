@@ -10,6 +10,8 @@ syn match vwOnRecord '`on\*`'
 syn match vwOffRecord '`off\*`'
 syn match vwComment "\/\/.*"
 
+let b:current_syntax = "interview"
+
 hi def link vwOnRecord Keyword
 hi def link vwOffRecord Boolean
 hi def link vwComment Comment
