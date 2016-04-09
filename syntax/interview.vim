@@ -9,11 +9,13 @@ endif
 syn region vwOnRecord start="`on" end="`"
 syn region vwOffRecord start="`off" end="`"
 syn region vwBackground start="`bg" end="`"
-syn match vwComment "\/\/.*"
+syn match vwCommentLine "\/\/.*"
+syntax region vwCommentRegion start="/\*"  end="\*/"
 
 let b:current_syntax = "interview"
 
 hi def link vwOnRecord Keyword
-hi def link vwOffRecord Error
+hi def link vwOffRecord Special
 hi def link vwBackground Special
-hi def link vwComment Comment
+hi def link vwCommentLine Comment
+hi def link vwCommentRegion Comment
