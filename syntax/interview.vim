@@ -6,8 +6,8 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn match vwOnRecord '`on\*`'
-syn match vwOffRecord '`off\*`'
+syn region vwOnRecord start="`on" end="`"
+syn region vwOffRecord start="'`off" end="`"
 syn match vwComment "\/\/.*"
 
 let b:current_syntax = "interview"
