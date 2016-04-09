@@ -16,6 +16,6 @@ let b:current_syntax = "interview"
 
 hi def link vwOnRecord Keyword
 hi def link vwOffRecord Special
-hi def link vwBackground Special
+hi def link vwBackground Number
 hi def link vwCommentLine Comment
 hi def link vwCommentRegion Comment
