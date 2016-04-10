@@ -1,0 +1,47 @@
+Date: January 1st, 2025
+Name: Dr. Emmett Lathrop Brown
+Title: Time travel inventor
+Org: Brown Enterprises
+Email: doc@bttf.org
+Phone: (202) 555-3993
+Groundrules (unless otherwise noted): On the record
+Referred by: Marty McFly <marty@biffco.com>
+---
+
+# Heading
+
+## Sub-heading
+
+### Sub-sub-heading etc.
+
+// inline comment
+
+/* Block
+comment */
+
+Normal paragraph text.
+
+This part is *important*.
+
+This part is **very important**.
+
+#### List
+
+* a
+* b
+
+#### Numbered list
+
+1. First
+2. Second
+
+`on
+This is a great idea.
+`
+
+`bg
+Some people don't think this is a good idea.
+`
+
+`off
+This is really a terrible idea.
