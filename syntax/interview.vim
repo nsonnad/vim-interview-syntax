@@ -39,10 +39,10 @@ hi def link vwListItem      String
 hi def link vwOffRecord     Special
 hi def link vwOnRecord      Conditional
 hi def link vwSectionBreak  Boolean
-hi def link vwH1            Float
-hi def link vwH2            Float
-hi def link vwH3            Float
-hi def link vwH4            Float
-hi def link vwH5            Float
-hi def link vwH6            Float
+hi def link vwH1            Boolean
+hi def link vwH2            Boolean
+hi def link vwH3            Boolean
+hi def link vwH4            Boolean
+hi def link vwH5            Boolean
+hi def link vwH6            Boolean
 
