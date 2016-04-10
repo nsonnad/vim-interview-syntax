@@ -10,7 +10,7 @@ endif
 
 syn match  vwCommentLine        "\/\/.*"
 syn match  vwSectionBreak       "\-\{2}\-\+"
-syn match  vwListItem           /^\s*\%([-*+]\|\d\+\.\)\s\+/ contained
+syn match  vwListItem           /^\s*\%([-*+]\|\d\+\.\)\s\+/
 
 syn region vwH1                 start="^\s*#"                   end="$"
 syn region vwH2                 start="^\s*##"                  end="$"
@@ -35,14 +35,14 @@ hi def link vwCommentRegion Comment
 hi def link vwEmail         Keyword
 hi def link vwEmphasis1     String
 hi def link vwEmphasis2     Keyword
-hi def link vwListItem      Number
+hi def link vwListItem      String
 hi def link vwOffRecord     Special
 hi def link vwOnRecord      Conditional
 hi def link vwSectionBreak  Boolean
-hi def link vwH1            Define
-hi def link vwH2            Define
-hi def link vwH3            Define
-hi def link vwH4            Define
-hi def link vwH5            Define
-hi def link vwH6            Define
+hi def link vwH1            Float
+hi def link vwH2            Float
+hi def link vwH3            Float
+hi def link vwH4            Float
+hi def link vwH5            Float
+hi def link vwH6            Float
 
